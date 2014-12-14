@@ -1,0 +1,76 @@
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\apl.dll.config
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\apl.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\apl.pdb
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\Antlr3.Runtime.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.SqlServer.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\Newtonsoft.Json.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Helpers.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Mvc.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Optimization.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Razor.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Razor.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\WebGrease.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.SqlServer.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Helpers.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Mvc.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Optimization.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Razor.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Razor.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\Antlr3.Runtime.pdb
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\Newtonsoft.Json.xml
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\obj\Debug\SocialNetwork.csprojResolveAssemblyReference.cache
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\obj\Debug\apl.dll
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\obj\Debug\apl.pdb
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\obj\Debug\apl.Migrations.init.resources
+C:\Users\Valery\Documents\Visual Studio 2013\Projects\apl\apl\obj\Debug\SocialNetwork.csproj.GenerateResource.Cache
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\apl.dll.config
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\apl.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\apl.pdb
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\Antlr3.Runtime.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.SqlServer.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\Microsoft.Web.Infrastructure.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\Newtonsoft.Json.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Helpers.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Mvc.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Optimization.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Razor.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Deployment.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Razor.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\WebGrease.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\EntityFramework.SqlServer.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Helpers.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Mvc.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Optimization.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.Razor.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Deployment.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\System.Web.WebPages.Razor.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\Antlr3.Runtime.pdb
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\Newtonsoft.Json.xml
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Helpers.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Mvc.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Optimization.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.Razor.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\obj\Debug\apl.dll
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\obj\Debug\apl.pdb
+D:\Со старого HDD\Visual Studio 2013\Projects\apl\apl\obj\Debug\SocialNetwork.csprojResolveAssemblyReference.cache
