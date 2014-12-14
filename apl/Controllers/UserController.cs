@@ -41,25 +41,22 @@ namespace apl.Controllers
         // POST: /User/Create
         [HttpPost]
         public ActionResult Create([Bind(Include = "ID,Name,Email")] User user)
-        {
-
-            
-           //bool p = db.Users.Found(user.Email);
-            try
-            
-            {
-                
+        {       
+            try            
+            {     
+                User userFromDb = db.Users.Where(p => p.Email == user.Email).FirstOrDefault();
                 if (db.Users.Where(p => p.Email == user.Email).FirstOrDefault() == null)
                 {
                     if (ModelState.IsValid)
                     {
                         db.Users.Add(user);
                         db.SaveChanges();
-                        //return RedirectToAction("Index");
+                        userFromDb = user;
                     }
                 }
-                
-                    return RedirectToAction("Index");
+                db.Asparaguses.Add(new Asparagus(userFromDb));
+                db.SaveChanges();
+               return RedirectToAction("Index","asparagus");
              
             }
             catch

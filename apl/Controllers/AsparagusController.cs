@@ -19,7 +19,7 @@ namespace SocialNetwork.Controllers
         // GET: Asparagus
         public ActionResult Index()
         {
-            return View(db.Asparaguses.ToList());
+            return View(db.Asparaguses.Include(x => x.User).Where(x => x.User != null).ToList());
             //.Include(x => x.User).Where(x => x.User != null)
            
         }
