@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Objects.DataClasses;
 
 namespace SocialNetwork.Models
 {
@@ -11,6 +12,16 @@ namespace SocialNetwork.Models
 
 
 
-        public virtual ICollection<Asparagus> Asparaguses { get; set; }
+        public virtual EntityCollection<Asparagus> Asparaguses { get; set; }
+
+
+        public int GetCountOfAsparagus()
+        {
+            return this.Asparaguses.Count;
+
+
+        }
+
+        
     }
 }

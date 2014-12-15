@@ -8,18 +8,20 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using SocialNetwork.DAL;
+using SocialNetwork.ViewModel;
 using SocialNetwork.Models;
+
+
 
 namespace SocialNetwork.Controllers
 {
     public class AsparagusController : Controller
     {
         private SocialNetworkContext db = new SocialNetworkContext();
-
         // GET: Asparagus
         public ActionResult Index()
         {
-            return View(db.Asparaguses.Include(x => x.User).Where(x => x.User != null).ToList());
+            return View(NewsfeedViewModel.SetupNewsfeed(db.Users.Include(x=>x.Asparaguses).ToList()));
             //.Include(x => x.User).Where(x => x.User != null)
            
         }
@@ -79,36 +81,7 @@ namespace SocialNetwork.Controllers
             return View(asparagus);
         }
 
-        // POST: Asparagus/Edit/5
-        // Чтобы защититься от атак чрезмерной передачи данных, включите определенные свойства, для которых следует установить привязку. Дополнительные 
-        // сведения см. в статье http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Date")] Asparagus asparagus)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(asparagus).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(asparagus);
-        }
-
-        // GET: Asparagus/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Asparagus asparagus = db.Asparaguses.Find(id);
-            if (asparagus == null)
-            {
-                return HttpNotFound();
-            }
-            return View(asparagus);
-        }
+        
 
         // POST: Asparagus/Delete/5
         [HttpPost, ActionName("Delete")]
