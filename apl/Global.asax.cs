@@ -19,7 +19,7 @@ namespace apl
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            //Database.SetInitializer<SocialNetworkContext>(new SocialNetworkInitializer());
+
         }
     }
 }
