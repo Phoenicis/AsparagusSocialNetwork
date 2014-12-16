@@ -7,6 +7,7 @@ using SocialNetwork.DAL;
 
 
 
+
 namespace SocialNetwork.ViewModel
 {
      
@@ -18,16 +19,23 @@ namespace SocialNetwork.ViewModel
 
         public DateTime Date { get; set; }
 
+        
+
         public static List<NewsfeedViewModel> SetupNewsfeed(IEnumerable<User> users)
         {
             List<NewsfeedViewModel> ListUser = new List<NewsfeedViewModel> { };//создаю список  пользователей
             foreach (var item in users)
             {
-                var thisUser = new NewsfeedViewModel();//создаю объект,который потом добавлю в список
-                thisUser.Name = item.Name;
+                if (item.Email != null)
+                {
+                    var thisUser = new NewsfeedViewModel();//создаю объект,который потом добавлю в список
+                    thisUser.Name = item.Name;
+                    thisUser.Date = item.Asparaguses.Where(sp => sp.ID == item.ID).OrderByDescending(sp => sp.Date).Skip(0).Take(1).FirstOrDefault().Date;
+                    thisUser.Count = item.Asparaguses.Count;//считаю количество вхождений данного пользователя
+                    if (thisUser.Date < DateTime.Now.AddDays(+1) && thisUser.Date >= DateTime.Now.AddDays(-1))
+                        ListUser.Add(thisUser);
+                }
                 
-                thisUser.Count = item.Asparaguses.Count;//считаю количество вхождений данного пользователя
-                ListUser.Add(thisUser);
 
             }
             
