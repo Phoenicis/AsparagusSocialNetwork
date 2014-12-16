@@ -10,7 +10,7 @@ namespace SocialNetwork.DAL
         public SocialNetworkContext()
         {
             this.Configuration.AutoDetectChangesEnabled = true;
-            this.Database.Connection.ConnectionString = @"Data Source=.\SQlExpress;Initial Catalog=SocialNetwork1;Integrated Security=true;";
+            this.Database.Connection.ConnectionString = @"Data Source=127.0.0.1,1433;Initial Catalog=SocialNetwork1;Integrated Security=true;";
             if(!this.Database.Exists()){
                 this.Database.Create();
             }           

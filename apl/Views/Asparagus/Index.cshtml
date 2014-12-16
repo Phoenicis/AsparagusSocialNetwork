@@ -20,7 +20,7 @@
 @foreach (var item in Model) {
     <tr>
         @*<td>
-            @Html.DisplayFor(modelItem => item.Date)
+            @Html.DisplayFor(modelItem => item.Asparaguses.Last().Date)
         </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Name)
