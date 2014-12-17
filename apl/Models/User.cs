@@ -9,7 +9,7 @@ namespace SocialNetwork.Models
     {
         public int ID { get; set; }
 
-        [Required]
+       // [Required]
         public string Name { get; set; }
 
 

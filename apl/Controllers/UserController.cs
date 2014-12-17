@@ -58,8 +58,8 @@ namespace apl.Controllers
                             userFromDb = user;
                             //  }                     
                         }
-                        else
-                            return RedirectToAction("Index", "home");
+                       // else
+                          //  return RedirectToAction("Index", "home");
                     //}
                    
                     db.Asparaguses.Add(new Asparagus(userFromDb));
