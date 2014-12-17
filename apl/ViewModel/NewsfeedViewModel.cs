@@ -32,7 +32,7 @@ namespace SocialNetwork.ViewModel
                     var thisUser = new NewsfeedViewModel();//создаю объект,который потом добавлю в список
                     thisUser.Name = item.Name;
                     thisUser.Date = item.Asparaguses.Where(sp => sp.User.Email == item.Email).OrderByDescending(sp => sp.Date).Skip(0).Take(1).LastOrDefault().Date;
-                    thisUser.Count = item.Asparaguses.Count;//считаю количество вхождений данного пользователя OrderBy(sp => sp.Date).
+                    thisUser.Count =(int) item.Asparaguses.LongCount(sp=>sp.Date > DateTime.Now.AddDays(-1));//считаю количество вхождений данного пользователя OrderBy(sp => sp.Date).
                     if (thisUser.Date < DateTime.Now.AddDays(+1) && thisUser.Date >= DateTime.Now.AddDays(-1))
                         ListUser.Add(thisUser);
                 }

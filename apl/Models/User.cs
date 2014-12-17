@@ -9,13 +9,12 @@ namespace SocialNetwork.Models
     {
         public int ID { get; set; }
 
-        [MinLength(1)]
+        [Required]
         public string Name { get; set; }
+
 
         [EmailAddress]
         public string Email { get; set; }
-
-
 
         public virtual ICollection<Asparagus> Asparaguses { get; set; }
     }

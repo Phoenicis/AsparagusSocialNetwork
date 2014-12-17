@@ -11,6 +11,7 @@ using SocialNetwork.Models;
 
 
 
+
 namespace apl.Controllers
 {
     public class UserController : Controller
@@ -34,7 +35,7 @@ namespace apl.Controllers
         // GET: /User/Create
         public ActionResult Create()
         {
-            return View();
+           return View();
         }
 
         //
@@ -45,22 +46,29 @@ namespace apl.Controllers
             try            
             {
                     User userFromDb = db.Users.Where(p => p.Email == user.Email).FirstOrDefault();
-                    if (db.Users.Where(p => p.Email == user.Email).FirstOrDefault() == null)
-                    {
-                        if (ModelState.IsValid)
+                
+                    //if (ModelState.IsValid)
+                    //{
+                    if (db.Users.Where(p => p.Email == user.Email).FirstOrDefault() == null) 
                         {
+                            // if (ModelState.IsValid)
+                            // {
                             db.Users.Add(user);
                             db.SaveChanges();
                             userFromDb = user;
+                            //  }                     
                         }
-                    }
+                        else
+                            return RedirectToAction("Index", "home");
+                    //}
+                   
                     db.Asparaguses.Add(new Asparagus(userFromDb));
                     db.SaveChanges();
                     return RedirectToAction("Index", "asparagus");                
             }
             catch
             {
-                return View();
+                return RedirectToAction("Index", "home");
             }
         }
 
